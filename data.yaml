@@ -1,0 +1,12 @@
+train: D:/Python Projects/pythonProject/.venv/dataset1/train/images
+val: D:/Python Projects/pythonProject/.venv/dataset1/valid/images
+
+nc: 7
+names: ['menyontek-berdiri-jongkok', 'menyontek-deteksi-hape-contekan', 'menyontek-lihat-atas-bawah', 'menyontek-lirik-kiri-kanan', 'menyontek-tengok-depan-belakang', 'menyontek-tengok-kiri-kanan', 'normal']
+
+roboflow:
+  workspace: universitas-pasundan-advmq
+  project: cheatingdetection
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/universitas-pasundan-advmq/cheatingdetection/dataset/1
